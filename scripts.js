@@ -10,13 +10,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.getElementById('loginForm').onsubmit = (event) => {
         event.preventDefault();
-        // Add login logic here
         $('#loginModal').modal('hide');
     }
 
     document.getElementById('signupForm').onsubmit = (event) => {
         event.preventDefault();
-        // Add signup logic here
+        
         $('#loginModal').modal('hide');
     }
 

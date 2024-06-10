@@ -163,7 +163,6 @@ footer p {
     margin: 0;
 }
 
-/* For screens between 320px and 991px */
 @media screen and (max-width: 991px) and (min-width: 320px) {
     header {
         flex-direction: column;
@@ -230,7 +229,6 @@ footer p {
     }
 }
 
-/* For screens between 992px and 1279px */
 @media screen and (max-width: 1279px) and (min-width: 992px) {
     header {
         padding: 15px;
